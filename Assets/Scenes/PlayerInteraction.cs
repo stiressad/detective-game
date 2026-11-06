@@ -33,5 +33,24 @@ public class PlayerInteraction : MonoBehaviour
                     door.Interact();
             }
         }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            Ray ray = playerCamera.ViewportPointToRay(
+                new Vector3(0.5f, 0.5f, 0)
+            );
+
+            RaycastHit hit;
+
+            if (Physics.Raycast(ray, out hit, interactionDistance))
+            {
+                DrawerController drawer =
+                    hit.collider.GetComponentInParent<DrawerController>();
+
+                if (drawer != null)
+                {
+                    drawer.ToggleDrawer();
+                }
+            }
+        }
     }
 }
