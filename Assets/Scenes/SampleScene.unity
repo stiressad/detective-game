@@ -137,6 +137,7 @@ GameObject:
   m_Component:
   - component: {fileID: 27385024}
   - component: {fileID: 27385023}
+  - component: {fileID: 27385026}
   - component: {fileID: 27385022}
   - component: {fileID: 27385025}
   m_Layer: 0
@@ -234,6 +235,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionDistance: 3
   playerCamera: {fileID: 929589233}
+--- !u!114 &27385026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27385021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b4ad0c9dc47d2f4993987f63ee01957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 27385023}
+  cameraRoot: {fileID: 929589231}
+  crouchHeight: 1.1
+  crouchCameraY: 0
+  crouchSpeed: 8
 --- !u!1001 &442213886
 PrefabInstance:
   m_ObjectHideFlags: 0
