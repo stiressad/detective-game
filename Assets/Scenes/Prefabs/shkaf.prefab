@@ -401,7 +401,7 @@ GameObject:
   - component: {fileID: 9045130220250441492}
   - component: {fileID: 6145644777338017520}
   - component: {fileID: 7434000112391536961}
-  - component: {fileID: 1091119786201721000}
+  - component: {fileID: 2631878305792369735}
   m_Layer: 0
   m_Name: Cube.002
   m_TagString: Untagged
@@ -496,7 +496,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.02, y: 0.019999996, z: 0.019999998}
   m_Center: {x: 0.000000014901161, y: -0.000000029802322, z: -0.0000000037252903}
---- !u!114 &1091119786201721000
+--- !u!114 &2631878305792369735
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -505,12 +505,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 4392045417379107078}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c907c82427304d43a86349541ed389b, type: 3}
+  m_Script: {fileID: 11500000, guid: f8b9a7362c896bc46a284cdbcd134a85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slideDistance: 0.35
-  slideSpeed: 3
-  moveDirection: {x: 1, y: 0, z: 0}
+  openAngle: 90
+  openSmoothTime: 0.35
+  hingeOnPositiveSide: 0
 --- !u!1 &5053435472350654203
 GameObject:
   m_ObjectHideFlags: 0
@@ -606,7 +606,7 @@ GameObject:
   - component: {fileID: 8715854887933523906}
   - component: {fileID: 5806197125406831881}
   - component: {fileID: 4328369296255933334}
-  - component: {fileID: 8564627114348852692}
+  - component: {fileID: 1350669625114516809}
   m_Layer: 0
   m_Name: Cube.001
   m_TagString: Untagged
@@ -701,7 +701,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.02, y: 0.019999996, z: 0.019999998}
   m_Center: {x: 0.000000014901161, y: 0, z: -0.0000000037252903}
---- !u!114 &8564627114348852692
+--- !u!114 &1350669625114516809
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -710,12 +710,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 5710627397718181740}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c907c82427304d43a86349541ed389b, type: 3}
+  m_Script: {fileID: 11500000, guid: f8b9a7362c896bc46a284cdbcd134a85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slideDistance: 0.35
-  slideSpeed: 3
-  moveDirection: {x: 1, y: 0, z: 0}
+  openAngle: 90
+  openSmoothTime: 0.35
+  hingeOnPositiveSide: 0
 --- !u!1 &7341438176300688682
 GameObject:
   m_ObjectHideFlags: 0
@@ -728,7 +728,7 @@ GameObject:
   - component: {fileID: 6984063438320833587}
   - component: {fileID: 3097925190719241381}
   - component: {fileID: 2767454608636196926}
-  - component: {fileID: 1564966924693364711}
+  - component: {fileID: 1351405871350417790}
   m_Layer: 0
   m_Name: Cube.004
   m_TagString: Untagged
@@ -823,7 +823,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.02, y: 0.019999996, z: 0.019999998}
   m_Center: {x: 0.000000014901161, y: 0, z: -0.0000000018626451}
---- !u!114 &1564966924693364711
+--- !u!114 &1351405871350417790
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -832,12 +832,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 7341438176300688682}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c907c82427304d43a86349541ed389b, type: 3}
+  m_Script: {fileID: 11500000, guid: f8b9a7362c896bc46a284cdbcd134a85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slideDistance: 0.35
-  slideSpeed: 3
-  moveDirection: {x: 1, y: 0, z: 0}
+  openAngle: 90
+  openSmoothTime: 0.35
+  hingeOnPositiveSide: 0
 --- !u!1 &8151647961934827423
 GameObject:
   m_ObjectHideFlags: 0
